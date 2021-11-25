@@ -61,13 +61,13 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="index.html#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <!--<li><a href="index.html#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>-->
           <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-		  <li><a href="index.html#facts" class="nav-link scrollto"><i class="bx bx-line-chart"></i> <span>Facts</span></a></li>
+		  <!--<li><a href="index.html#facts" class="nav-link scrollto"><i class="bx bx-line-chart"></i> <span>Facts</span></a></li>-->
 		  <li><a href="index.html#skills" class="nav-link scrollto"><i class="bi bi-boxes"></i> <span>Skills</span></a></li>
           <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-		  <li><a href="index.html#awards" class="nav-link scrollto"><i class="bi bi-award"></i> <span>Awards</span></a></li>
-          <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+		  <!--<li><a href="index.html#awards" class="nav-link scrollto"><i class="bi bi-award"></i> <span>Awards</span></a></li>-->
+          <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
           <li><a href="index.html#testimonials" class="nav-link scrollto"><i class="bi bi-chat-quote-fill"></i> <span>Testimonials</span></a></li>
           <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
 		  <li><a></a></li>
@@ -102,19 +102,19 @@
 		  <div class="col-lg-12">
 			<div class="portfolio-description section-title" style="text-align: justify;
   text-justify: inter-word;">
-              <h2>General Information</h2>
+              <!--<h2>General Information</h2>
               <p class="portfolio-info">Stock Market prediction is a challenging task due to its uncertain nature and its dependency on numerous factors. Accurate predictions would allow an user to make smart investment decisions. Economic crisis, pandemic phase, natural disasters, news and social media could also affect the change in the stock price of a company along with the intrinsic stats of the company.</p>
-			<br><h2>Project Description</h2><h5><em>Prediction System</em></h5>
+			<br>--><h2>Project Description</h2><h5><em>Prediction System</em></h5>
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-7 portfolio-info"><p>For accurate prediction both fundamental and technical factors were considered, i.e. historical stock records, sentiments based on news headlines and public sentiments based on social media tweets. Along with a prediction system, a recommendation system was built based on statistical approaches to provide users with possible and profitable options/recommendations of stocks. The data sources were yahoo finance for historical records, twitter tweets scrapped using Twint and google news scrapped using api.</p></div>
+					<div class="col-sm-7 portfolio-info"><p>For accurate prediction both fundamental and technical factors were considered, i.e. historical stock records, sentiments based on news headlines and public sentiments based on social media tweets. <!--Along with a prediction system, a recommendation system was built based on statistical approaches to provide users with possible and profitable options/recommendations of stocks. -->The data sources were yahoo finance for historical records, twitter tweets scrapped using Twint and google news scrapped using api.</p></div>
 					<div class="col-sm-3"><img src="assets/img/portfolio/StockPrediction/Picture1.png" /></div>
 					<div class="col-sm-2"><div class="row"><img src="assets/img/portfolio/StockPrediction/Picture2.png" /></div>
 					<div class="row"><img src="assets/img/portfolio/StockPrediction/Picture3.png" /></div></div>
 				</div>
 			</div>
 			<br/>
-			<p class="portfolio-info">Natural Language Preprocessing steps such as lowercase conversion, stopwords removal, url/twitter handles removal, punctuations, numbers, stemming and lematization were performed on the news headlines and tweets. <strong>Sentiment analysis</strong> were performed on the news headlines and tweets using nltk and textblob. Single day, multiple days effect of sentiments were considered and combined with the historical records.<br>On experimentation it was determined that past <strong>90 days</strong> of data was necessary to train the network. <strong>Recurrent neural network with LSTM and GRU</strong> were trained and the model could predict single day to maximum five future days.</p>
+			<p class="portfolio-info">Natural Language Preprocessing steps such as lowercase conversion, removal of stopwords, url/twitter handles and few more, stemming and lematization were performed on the news headlines and tweets. <strong>Sentiment analysis</strong> were performed. <!--Single day, multiple days effect of sentiments were considered and combined with the historical records.<br>On experimentation it was determined that past <strong>90 days</strong> of data was necessary to train the network. --><strong>Recurrent neural network with LSTM and GRU</strong> were trained on past 90 days and the model could predict single day to maximum five future days.</p>
 			</div>
 			<div class="container">
 				<div class="row gy-4">
@@ -133,7 +133,7 @@
 					</div>
 					<div class="col-lg-6">
 						<div class="portfolio-info">
-							<p>The hypothesis and the model was tested on data of two companies 'Telstra' and 'Qantas' and the model was able to predict with low RMSE scores.</p>
+							<!--<p>The hypothesis and the model was tested on data of two companies 'Telstra' and 'Qantas' and the model was able to predict with low RMSE scores.</p>-->
 							<h5>Prediction RMSE scores</h5>
 							<table id="predictionrmsescores">
 								<tr>
@@ -183,7 +183,7 @@
 											</div>
 											<div class="col-lg-6" class="portfolio-info">
 												<h5>Recommendation Approach 1</h5>
-												<p>Recommendation based on the similarity of sector and industry, statistical measure to computer similarity matrix and companies with values 1.0 have the common industry and sector and values 0 indicates no similarity. Based on the current company viewed by the user another similar company would be recommended.</p>
+												<p>Recommendation based on the similarity of sector and industry.<!--, statistical measure to computer similarity matrix and companies with values 1.0 have the common industry and sector and values 0 indicates no similarity. Based on the current company viewed by the user another similar company would be recommended.--></p>
 											</div>
 										</div>
 									</div>
@@ -196,7 +196,7 @@
 											</div>
 											<div class="col-lg-6" class="portfolio-info">
 												<h5>Recommendation Approach 2</h5>
-												<p>Recommendation based on the returns and volatility of stocks of a company. Considering a period of 60 days for computation of the values of return and volatility. Stocks which have higher return and less volatility are considered to be the best stocks for investment and also less risky, volatile stocks are fluctuative and so could be a concern for certain investors. Stocks with low return may not bring profit on a short term but be helpful in long term investment. Therefore, stocks above the threshold line are good Buy options and below are better Sell options.</p>
+												<p>Recommendation based on the returns and volatility of stocks of a company. Considering a period of 60 days for computation of the values of return and volatility. <!--Stocks which have higher return and less volatility are considered to be the best stocks for investment and also less risky, volatile stocks are fluctuative and so could be a concern for certain investors. Stocks with low return may not bring profit on a short term but be helpful in long term investment. Therefore, stocks above the threshold line are good Buy options and below are better Sell options.--></p>
 											</div>
 										</div>
 									</div>
@@ -209,7 +209,7 @@
 											</div>
 											<div class="col-lg-6" class="portfolio-info">
 												<h5>Recommendation Approach 3</h5>
-												<p>Recommendation based on comparison of the on-balance volume and the close value of a stock. The on-balance volume is a statistical measure and calculated by comparing the current volume and the current close price. The trends of the obv and close indicates the possible future movement of the stock, if the obv and close trend are in the same direction then it indicates that the trend will follow that trend and keep moving in the same direction, if opposite then the close price of the stock is believed to eventually follow the trend of the obv, because the price is dependent on how many shares are being traded during a period. This approach helps the users to determine the future movement and assure of the risky factors and help make smart decisions.</p>
+												<p>Recommendation based on comparison of the on-balance volume and the close value of a stock. The on-balance volume is a statistical measure and calculated by comparing the current volume and the current close price. The trends of the obv and close indicates the possible future movement of the stock.<!-- if the obv and close trend are in the same direction then it indicates that the trend will follow that trend and keep moving in the same direction, if opposite then the close price of the stock is believed to eventually follow the trend of the obv, because the price is dependent on how many shares are being traded during a period. This approach helps the users to determine the future movement and assure of the risky factors and help make smart decisions.--></p>
 											</div>
 										</div>
 									</div>
@@ -222,7 +222,7 @@
 											</div>
 											<div class="col-lg-6" class="portfolio-info">
 												<h5>Recommendation Approach 4</h5>
-												<p>Recommendation based on the moving average of the stock with two sliders one being of 200 past days and 50 past days. The 200 moving average slider provides the indication of the threshold average value of the stock on longer term. The 50 moving average slider provides the indication of the current status of the stock. Comparing both the moving average values it can be determined if the stock is currently doing better than average or worse than average. This comparison leads to golden period or death period, which provides the user to make smart decisions about investment.</p>
+												<p>Recommendation based on the moving average of the stock with two sliders one being of 200 past days and 50 past days. The 200 moving average slider provides the indication of the threshold average value of the stock on longer term. The 50 moving average slider provides the indication of the current status of the stock. <!--Comparing both the moving average values it can be determined if the stock is currently doing better than average or worse than average. This comparison leads to golden period or death period, which provides the user to make smart decisions about investment.--></p>
 											</div>
 										</div>
 									</div>
@@ -230,7 +230,7 @@
 							</div>
 						<div class="swiper-pagination"></div>
 						</div>
-					<p class="portfolio-info">The complete system is made user friendly with the help of a web application and mobile application to make the users comfortable to analyse the stock prediction and the recommendation system is mixed up in the system. </p>
+					<!--<p class="portfolio-info">The complete system is made user friendly with the help of a web application and mobile application to make the users comfortable to analyse the stock prediction and the recommendation system is mixed up in the system. </p>-->
 				</div>
 			</div>
 		</div>
